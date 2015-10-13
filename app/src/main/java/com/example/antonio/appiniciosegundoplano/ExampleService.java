@@ -29,7 +29,7 @@ public class ExampleService extends Service {
                         ejecutarTarea();
                     }
                 }
-                , 0, 1000 * 60);
+                , 0, 100 * 60);
     }
 
     private void ejecutarTarea(){
