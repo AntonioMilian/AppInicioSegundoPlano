@@ -38,7 +38,7 @@ public class ExampleService extends Service {
                 NotifyManager notify = new NotifyManager();
                 notify.playNotification(getApplicationContext(),
                         MainActivity.class, "Tienes una notificación"
-                        , "Notificación", android.R.drawable.arrow_down_float);
+                        , "Notificación plasta de panfi", android.R.drawable.arrow_down_float);
                 //Toast.makeText(null, "añsldkfj sñlkfj asdñl j", Toast.LENGTH_LONG);
 
             }
