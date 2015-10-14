@@ -17,7 +17,7 @@ public class NotifyManager {
  /*NOTIFICATION VARS*/
         NotificationManager mNotificationManager;
         int SIMPLE_NOTIFICATION_ID = 1;
-        //Toast.makeText(null, "alsfkjas lkfsalf", Toast.LENGTH_LONG).show();
+
         Notification notifyDetails= new Notification.Builder(context)
                 .setContentTitle(titleNotification)
                 .setSmallIcon(android.R.drawable.arrow_up_float)
